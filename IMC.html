@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <title> Calculadora de IMC</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="logo.png" alt="Logo da iniciativa Vida Saúde">
+        <nav class="cabecalho-menu">
+            <a  class="cabecalho-menu-item" href="">Consultas</a>
+            <a  class="cabecalho-menu-item" href="">Saúde alimentar</a>
+            <a  class="cabecalho-menu-item" href="">Saúde corporal</a>
+            <a  class="cabecalho-menu-item" href="">Colaboradores</a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo-1">
+            <div class="conteudo-1-escrito">
+                <h1 class="cont-1-h1" >Calculadora de IMC</h1>
+                <h2 class="cont-1-h2">IMC é o Índice de Massa Corporal e tem o objetivo de definir qual é o <strong>peso ideal</strong> para cada indivíduo.</h2>
+            </div>
+
+            <div class="conteudo-1-calculadora">
+                <label class="conteudo-1-calc-label" for="peso">Digite seu peso:</label>
+                    <input class="conteudo-1-calc-input"type="number"  id="peso">
+                        <br><br>
+                <label class="conteudo-1-calc-label" for="altura">Digite a sua altura:</label>
+                    <input  class="conteudo-1-calc-input" type="number"  id="altura">
+                        <br><br>
+                <button class="conteudo-1-calculadora-botao" onclick="validate()">Calcular!</button> 
+            </div>
+        </section>
+
+        <section class="conteudo-2">
+             <p class="conteudo-2-escrito" id="resultado"></p>
+        </section>
+    </main>
+
+    <footer>
+        <img src="" alt="">
+    </footer>
+   
+</body>
+</html>

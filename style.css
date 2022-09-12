@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-imagem{
+    height: 65px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo{ 
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    justify-content: space-evenly;
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+.conteudo-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.conteudo-1-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 45vw;
+}
+.cont-1-h1{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+.cont-1-h2{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    height: 75%;
+}
+.conteudo-1-calculadora{
+    display: flex;
+    flex-direction: column;
+    padding: 50px ;
+}
+ .conteudo-1-calc-label{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+ }
+.conteudo-1-calc-input{
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 30px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+    padding: 10px 10px 10px 10px;
+}
+.conteudo-1-calculadora-botao {
+    background-color: #FFF2E7 85%;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+.conteudo-1-calculadora-botao:hover {
+    background-color:#c53b1c rgba(236, 214, 196, 0.53);
+ }
+ .conteudo-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+    margin-bottom: 50px;
+ }
+ .conteudo-2-escrito{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 24px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2EF;
+ }
+ .img{
+    width: 400px;
+    width: 600px;
+ }
